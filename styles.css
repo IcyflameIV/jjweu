@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+  .container
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(126, 117, 149);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+  .container__
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: bottom;
+    background-color: rgb(207, 191, 191);
+    height: 60vh;
+    width: 40vw;
+  }
+  .display_cont
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(148, 145, 145);
+    height: 12vh;
+    width: 40vw;
+  }
+  .back_
+  {
+    display: flex;
+    height: 6vh;
+    width: 6vw;
+    cursor: pointer;
+  }
+  
+  .display_box{
+    text-align: start;
+    float: left;
+    background-color: rgb(80, 80, 73);
+    height: 10vh;
+    width: 32vw;
+    font-size: xx-large;
+    border-radius: 7%;
+  }
+  .btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,
+  .btn7,.btn8,.btn9,.btna,.btn0,.btnb
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    height: 12vh;
+    width: 13vw;
+    border-radius: 7%;
+    border-color: rgb(184, 184, 184);
+    cursor: pointer;
+  }
+ 
+ 
+  
+ 
